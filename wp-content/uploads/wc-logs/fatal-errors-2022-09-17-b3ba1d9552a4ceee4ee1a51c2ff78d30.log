@@ -1,0 +1,71 @@
+2022-09-17T04:52:06+00:00 CRITICAL Uncaught Error: Call to undefined function woocommerce_wp_text_input() in C:\xampp1\htdocs\testwork763\wp-content\plugins\theme-customisations\custom\functions.php:26
+Stack trace:
+#0 C:\xampp1\htdocs\testwork763\wp-content\plugins\theme-customisations\theme-customisations.php(34): require_once()
+#1 C:\xampp1\htdocs\testwork763\wp-content\plugins\theme-customisations\theme-customisations.php(111): Theme_Customisations->__construct()
+#2 C:\xampp1\htdocs\testwork763\wp-includes\class-wp-hook.php(307): theme_customisations_main('')
+#3 C:\xampp1\htdocs\testwork763\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp1\htdocs\testwork763\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#5 C:\xampp1\htdocs\testwork763\wp-settings.php(461): do_action('plugins_loaded')
+#6 C:\xampp1\htdocs\testwork763\wp-config.php(96): require_once('C:\\xampp1\\htdoc...')
+#7 C:\xampp1\htdocs\testwork763\wp-load.php(50): require_once('C:\\xampp1\\htdoc...')
+#8 C:\xampp1\htdocs\testwork763\wp-admin\admin.php(34): require_once('C:\\xampp1\\htdoc...')
+#9 C:\xampp1\htdocs\testwork763\wp-admin\plugins.php(10): require_once('C:\\xampp1\\htdoc...')
+#10 {main}
+  thrown in C:\xampp1\htdocs\testwork763\wp-content\plugins\theme-customisations\custom\functions.php on line 26
+
+2022-09-17T04:52:07+00:00 CRITICAL Uncaught Error: Call to undefined function woocommerce_wp_text_input() in C:\xampp1\htdocs\testwork763\wp-content\plugins\theme-customisations\custom\functions.php:26
+Stack trace:
+#0 C:\xampp1\htdocs\testwork763\wp-content\plugins\theme-customisations\theme-customisations.php(34): require_once()
+#1 C:\xampp1\htdocs\testwork763\wp-content\plugins\theme-customisations\theme-customisations.php(111): Theme_Customisations->__construct()
+#2 C:\xampp1\htdocs\testwork763\wp-includes\class-wp-hook.php(307): theme_customisations_main('')
+#3 C:\xampp1\htdocs\testwork763\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp1\htdocs\testwork763\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#5 C:\xampp1\htdocs\testwork763\wp-settings.php(461): do_action('plugins_loaded')
+#6 C:\xampp1\htdocs\testwork763\wp-config.php(96): require_once('C:\\xampp1\\htdoc...')
+#7 C:\xampp1\htdocs\testwork763\wp-load.php(50): require_once('C:\\xampp1\\htdoc...')
+#8 C:\xampp1\htdocs\testwork763\wp-admin\admin-ajax.php(22): require_once('C:\\xampp1\\htdoc...')
+#9 {main}
+  thrown in C:\xampp1\htdocs\testwork763\wp-content\plugins\theme-customisations\custom\functions.php on line 26
+
+2022-09-17T04:53:42+00:00 CRITICAL syntax error, unexpected token "(", expecting variable in C:\xampp1\htdocs\testwork763\wp-content\plugins\theme-customisations\custom\functions.php on line 27
+
+2022-09-17T06:06:04+00:00 CRITICAL syntax error, unexpected single-quoted string "style", expecting ")" in C:\xampp1\htdocs\testwork763\wp-content\plugins\theme-customisations\custom\functions.php on line 53
+
+2022-09-17T06:06:06+00:00 CRITICAL syntax error, unexpected single-quoted string "style", expecting ")" in C:\xampp1\htdocs\testwork763\wp-content\plugins\theme-customisations\custom\functions.php on line 53
+
+2022-09-17T06:33:53+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\xampp1\htdocs\testwork763\wp-content\plugins\theme-customisations\custom\functions.php:31
+Stack trace:
+#0 C:\xampp1\htdocs\testwork763\wp-includes\class-wp-hook.php(307): woocommerce_product_custom_fields('')
+#1 C:\xampp1\htdocs\testwork763\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\xampp1\htdocs\testwork763\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\xampp1\htdocs\testwork763\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-general.php(206): do_action('woocommerce_pro...')
+#4 C:\xampp1\htdocs\testwork763\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(42): include('C:\\xampp1\\htdoc...')
+#5 C:\xampp1\htdocs\testwork763\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-product-data-panel.php(52): WC_Meta_Box_Product_Data::output_tabs()
+#6 C:\xampp1\htdocs\testwork763\wp-content\plugins\woocommerce\includes\admin\meta-boxes\class-wc-meta-box-product-data.php(33): include('C:\\xampp1\\htdoc...')
+#7 C:\xampp1\htdocs\testwork763\wp-admin\includes\template.php(1401): WC_Meta_Box_Product_Data::output(Object(WP_Post), Array)
+#8 C:\xampp1\htdocs\testwork763\wp-admin\edit-form-advanced.php(688): do_meta_boxes(Object(WP_Screen), 'normal', Object(WP_Post))
+#9 C:\xampp1\htdocs\testwork763\wp-admin\post-new.php(75): require('C:\\xampp1\\htdoc...')
+#10 {main}
+  thrown in C:\xampp1\htdocs\testwork763\wp-content\plugins\theme-customisations\custom\functions.php on line 31
+
+2022-09-17T07:01:34+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "woocommerce_product_custom_fields_save" not found or invalid function name in C:\xampp1\htdocs\testwork763\wp-includes\class-wp-hook.php:309
+Stack trace:
+#0 C:\xampp1\htdocs\testwork763\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#1 C:\xampp1\htdocs\testwork763\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#2 C:\xampp1\htdocs\testwork763\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-meta-boxes.php(268): do_action('woocommerce_pro...', 31, Object(WP_Post))
+#3 C:\xampp1\htdocs\testwork763\wp-includes\class-wp-hook.php(309): WC_Admin_Meta_Boxes->save_meta_boxes(31, Object(WP_Post))
+#4 C:\xampp1\htdocs\testwork763\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#5 C:\xampp1\htdocs\testwork763\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#6 C:\xampp1\htdocs\testwork763\wp-includes\post.php(4673): do_action('save_post', 31, Object(WP_Post), true)
+#7 C:\xampp1\htdocs\testwork763\wp-includes\post.php(4775): wp_insert_post(Array, false, true)
+#8 C:\xampp1\htdocs\testwork763\wp-admin\includes\post.php(426): wp_update_post(Array)
+#9 C:\xampp1\htdocs\testwork763\wp-admin\post.php(227): edit_post()
+#10 {main}
+  thrown in C:\xampp1\htdocs\testwork763\wp-includes\class-wp-hook.php on line 309
+
+2022-09-17T10:57:37+00:00 CRITICAL Unclosed '{' on line 150 in C:\xampp1\htdocs\testwork763\wp-content\plugins\theme-customisations\custom\functions.php on line 156
+
+2022-09-17T10:57:39+00:00 CRITICAL Unclosed '{' on line 150 in C:\xampp1\htdocs\testwork763\wp-content\plugins\theme-customisations\custom\functions.php on line 156
+
+2022-09-17T10:57:41+00:00 CRITICAL Unclosed '{' on line 150 in C:\xampp1\htdocs\testwork763\wp-content\plugins\theme-customisations\custom\functions.php on line 156
+
